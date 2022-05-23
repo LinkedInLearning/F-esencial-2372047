@@ -1,6 +1,5 @@
 # F# esencial
-Este es el repositorio del curso de LinkedIn Learning `[nombre del curso]`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
-
+Este es el repositorio del curso de LinkedIn Learning `F# esencial`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 ![Nombre completo del curso][lil-thumbnail-url] 
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
