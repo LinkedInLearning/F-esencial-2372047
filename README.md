@@ -1,4 +1,4 @@
-# Nombre final del curso
+# F# esencial
 Este es el repositorio del curso de LinkedIn Learning `[nombre del curso]`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
 ![Nombre completo del curso][lil-thumbnail-url] 
@@ -6,6 +6,7 @@ Este es el repositorio del curso de LinkedIn Learning `[nombre del curso]`. El c
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
 DESCRIPCIÓN DEL CURSO
+Durante este contenido formativo conocerás y dominarás las características básicas de F#: un lenguaje de programación multiplataforma, open source y multiparadigma con el que puedes desarrollar aplicaciones web, aplicaciones de escritorio e incluso es utilizado para áreas como la ciencia de datos. Partiremos desde las principales características que lo distinguen de otros lenguajes de programación, hasta temas de programación orientada a objetos y programación funcional. Explora este lenguaje de sintaxis simple y potencia superior en rendimiento.
 
 ## Instrucciones
 Este repositorio tiene ramas (branches) para cada uno de los vídeos del curso. Puedes usar el menú emergente de la rama en GitHub para cambiar a una rama específica y echar un vistazo al curso en esa etapa, o puedes añadir `/tree/nombre_de_la_rama` a la URL para ir a la rama a la que quieres acceder.
@@ -22,9 +23,9 @@ Las ramas están estructuradas para corresponder a los vídeos del curso. La con
 
 ### Docente
 
-**Nombre del docente**
+**Noemí León**
 
-Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
+Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/noemi-leon).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
