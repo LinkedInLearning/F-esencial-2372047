@@ -5,6 +5,7 @@ Este es el repositorio del curso de LinkedIn Learning `F# esencial`. El curso co
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
 DESCRIPCIÓN DEL CURSO
+
 Durante este contenido formativo conocerás y dominarás las características básicas de F#: un lenguaje de programación multiplataforma, open source y multiparadigma con el que puedes desarrollar aplicaciones web, aplicaciones de escritorio e incluso es utilizado para áreas como la ciencia de datos. Partiremos desde las principales características que lo distinguen de otros lenguajes de programación, hasta temas de programación orientada a objetos y programación funcional. Explora este lenguaje de sintaxis simple y potencia superior en rendimiento.
 
 ## Instrucciones
