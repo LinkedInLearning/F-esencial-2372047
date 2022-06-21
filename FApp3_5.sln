@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FApp3_5", "FApp3_5.fsproj", "{55C388CA-65CD-426A-8229-F47CB85E6F3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55C388CA-65CD-426A-8229-F47CB85E6F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C388CA-65CD-426A-8229-F47CB85E6F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C388CA-65CD-426A-8229-F47CB85E6F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C388CA-65CD-426A-8229-F47CB85E6F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F38FB68-4954-4B38-8974-C5D9CD9B1017}
+	EndGlobalSection
+EndGlobal
