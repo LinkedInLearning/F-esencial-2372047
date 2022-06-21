@@ -1,27 +1,68 @@
-﻿// Learn more about F# at http://fsharp.org
+﻿open System
 
-open System
+//Tupla curso
+//let curso = ("F#", 3.2, "Noemi Leon", 5000) 
 
-module Tupla =
-    //tipos mixtos
-    let ejmTupla = ("elemento 1", "el 2", 2, 5.0 )
+//Definicion Record: When each label is on a separate line, the semicolon is optional.
+type Curso =
+    {
+        Titulo: string
+        Duracion: float
+        Instructor: string
+        Vistas: int
+    }
 
-    //tupla de expresiones
-    let tuplaExp = (5+5, "hola "+ "mundo", 8*4)
+//Record como struct usa atributo [<Struct>]
 
-    //titulo, duracion, instructor, vistas
-    let curso = ("F#", 3.2, "Noemi Leon", 5000)
-    let titulo, duracion, instructor, vistas = curso
-    printfn "El titulo del curso es %s" titulo
-    //ignorar elementos con _
-    let _, _, inst, vist = curso
-    printfn "Instructor %s, vistas %i" inst vist
+//Crear Record
+let cursoA =
+    {
+        Titulo = "F#"
+        Duracion = 2.5
+        Instructor = "Noemi L"
+        Vistas = 8000
+    }
 
-    //funcion que retorna una tupla
-    let divVals x y = 
-        let resultado = x/y
-        let residuo = x%y
-        (resultado, residuo)
+//Acceder a datos del record
+printfn "El curso %s tiene %i Vistas" cursoA.Titulo cursoA.Vistas 
 
-    let divResultado, divResiduo = divVals 5 2
-    printfn "Resultado = %i, Residuo = %i" divResultado divResiduo
+//Modificar dato del record
+let nCurso = { cursoA with Vistas = 8001}
+printfn "El curso %s tiene %i Vistas" nCurso.Titulo nCurso.Vistas
+
+//Records en otros records
+type Pago =
+    {
+        Id : string
+        Fecha : DateTime
+        ModoPago : int
+        Tajeta : Tarjeta 
+    } 
+and Tarjeta =
+    {
+        Banco : int
+        Nombre: string
+        //record anonimo: permite crear un record sin definir un tipo
+        Direccion: {| Ciudad: string; CP: int; Pais: string |}
+        //otros datos: numero, etc
+    }
+
+//definir Pago con tarjeta
+let rec miPago =
+    {
+        Id = "xxx-1"
+        Fecha = DateTime.Now
+        ModoPago = 2 
+        Tajeta = 
+            {
+                Banco = 5
+                Nombre = "Madison LL"
+                Direccion = {| Ciudad="Vancouver"; CP = 557; Pais = "Canadá" |}
+            }
+    }
+
+
+
+
+
+
