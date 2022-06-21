@@ -1,14 +1,7 @@
 ﻿open System
-
+open Boleano.Operador
 [<EntryPoint>]
 let main argv =
-    (* BOOL *)
-    let v = true
-    let f = false
-    //operadores
-    let opAnd = v && f 
-    let opOr = v || f
-
     (* NUM *)
     let entero = 1500
     let d = decimal entero
@@ -19,6 +12,8 @@ let main argv =
 
     let c = char entero
     Console.WriteLine("c = {0} en char", c)
+
+    printfn "El valor de opOr = %b" opOr
     let mibyte = 1uy
     let midecimal = 5.5m
     let milista = [ 0 .. 10 ]
