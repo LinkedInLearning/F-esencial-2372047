@@ -1,24 +1,28 @@
-﻿// Learn more about F# at http://fsharp.org
+﻿open System
 
-open System
-let imprimeDespedida() =
-    let num = 1
-    let msj = "Vuelve pronto"
-    printfn "%s" msj
-
-let restar x =
-    let total =  x - 10
-    total
-
-let suma x y = x + y + 10
-    
 [<EntryPoint>]
-let main argv=
-    let saludo = "Hola mundo F#!"
-    imprimeDespedida
-//    let miTotal = suma 10 20 //no mutable
-    let mutable miTotal = suma 10 20
-    printfn "%i" miTotal
-    miTotal = 50
-    printfn "%i" miTotal
-    0
+let main argv =
+    (* BOOL *)
+    let v = true
+    let f = false
+    //operadores
+    let opAnd = v && f 
+    let opOr = v || f
+
+    (* NUM *)
+    let entero = 1500
+    let mibyte = 1uy
+    let midecimal = 5.5m
+    let milista = [ 0 .. 10 ]
+    //operadores
+    let multi = entero * 5
+
+    (* CADENA *)
+    let saludo = "Hola mundo F#"
+    let ruta = @"C:\Noemi\Cursos" //cadena literal, ignora caracteres de escape
+    let letra = 'N'
+    //operadores
+    let concat = saludo + " " +  " .."
+    let subcad = concat.[0..9] //notacion de indexador para subcadenas
+    printfn "%s" subcad
+    0 // return an integer exit code
