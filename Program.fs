@@ -11,6 +11,14 @@ let main argv =
 
     (* NUM *)
     let entero = 1500
+    let d = decimal entero
+    Console.WriteLine("d = {0} en decimal", d)
+
+    let b = byte entero
+    Console.WriteLine("b = {0} en byte", b)
+
+    let c = char entero
+    Console.WriteLine("c = {0} en char", c)
     let mibyte = 1uy
     let midecimal = 5.5m
     let milista = [ 0 .. 10 ]
