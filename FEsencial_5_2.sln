@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FEsencial_5_1", "FEsencial_5_1\FEsencial_5_1.fsproj", "{4D2E2DB5-21FA-4CC9-9EAF-9135E70990C7}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FEsencial_5_2", "FEsencial_5_2\FEsencial_5_2.fsproj", "{F46F551A-52F6-49C9-83B2-BF7B763AB002}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4D2E2DB5-21FA-4CC9-9EAF-9135E70990C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D2E2DB5-21FA-4CC9-9EAF-9135E70990C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D2E2DB5-21FA-4CC9-9EAF-9135E70990C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D2E2DB5-21FA-4CC9-9EAF-9135E70990C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F46F551A-52F6-49C9-83B2-BF7B763AB002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46F551A-52F6-49C9-83B2-BF7B763AB002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F46F551A-52F6-49C9-83B2-BF7B763AB002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F46F551A-52F6-49C9-83B2-BF7B763AB002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CAE586B2-3F06-4051-979D-88A6D5F345C3}
+		SolutionGuid = {FC92C2BF-12E7-4028-86BF-1CD7336276D7}
 	EndGlobalSection
 EndGlobal

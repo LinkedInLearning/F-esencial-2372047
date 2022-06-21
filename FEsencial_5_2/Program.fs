@@ -5,6 +5,9 @@ type Curso(titulo: string, duracion: int, repo: string) =
  let mutable repositorio = ""
  let mutable vistas = 0
 
+ let crearRepoAPI repo =
+  printfn $"Fin {repo}"
+
  //solo lectura
  member this.Vistas = vistas
 
@@ -17,15 +20,21 @@ type Curso(titulo: string, duracion: int, repo: string) =
   with get() = duracionT
   and set (durac) = duracionT <- durac
 
+ //métodos
+ member this.AgregarVisualizacion() = vistas <- vistas+1
+ member _.CrearRepositorio() =
+  crearRepoAPI repo
+ 
 
 let titulo = "F#"
 let duracion = 3
 let rutaRepo = "https://github.com/noeleo25"
 let miCurso = Curso(titulo, duracion, rutaRepo)
 
-//acceso a propiedades
+miCurso.AgregarVisualizacion()
 printfn $"{miCurso.Vistas}"
-printfn $"{miCurso.Duracion}"
+miCurso.CrearRepositorio()
 
-miCurso.Duracion <- 5
-printfn $"{miCurso.Duracion}"
+
+
+
