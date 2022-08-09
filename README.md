@@ -1,7 +1,7 @@
 # F# esencial
 Este es el repositorio del curso de LinkedIn Learning `F# esencial`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
-![Nombre completo del curso][lil-thumbnail-url] 
+![image](https://user-images.githubusercontent.com/71371373/183633542-d50f3312-4448-47eb-85d8-68e1a70860cc.png) 
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
