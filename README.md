@@ -1,10 +1,9 @@
 # F# esencial
 Este es el repositorio del curso de LinkedIn Learning `F# esencial`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
+
 ![Nombre completo del curso][lil-thumbnail-url] 
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
-
-DESCRIPCIÓN DEL CURSO
 
 Durante este contenido formativo conocerás y dominarás las características básicas de F#: un lenguaje de programación multiplataforma, open source y multiparadigma con el que puedes desarrollar aplicaciones web, aplicaciones de escritorio e incluso es utilizado para áreas como la ciencia de datos. Partiremos desde las principales características que lo distinguen de otros lenguajes de programación, hasta temas de programación orientada a objetos y programación funcional. Explora este lenguaje de sintaxis simple y potencia superior en rendimiento.
 
@@ -28,8 +27,8 @@ Las ramas están estructuradas para corresponder a los vídeos del curso. La con
 Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/noemi-leon).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
+[lil-course-url]: https://www.linkedin.com/learning/f-sharp-esencial/bienvenido-a-f-sharp
+[lil-thumbnail-url]: ![image](https://user-images.githubusercontent.com/71371373/183633487-cb895d5c-5ca4-4623-9e79-b5725a1b0322.png)
 
 
 [1]: # (End of ES-Instruction ###############################################################################################)
