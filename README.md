@@ -1,7 +1,7 @@
 # F# esencial
 Este es el repositorio del curso de LinkedIn Learning `F# esencial`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
-![image](https://user-images.githubusercontent.com/71371373/183633542-d50f3312-4448-47eb-85d8-68e1a70860cc.png) 
+![COURSENAME][lil-thumbnail-url] 
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
@@ -28,7 +28,4 @@ Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.c
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/f-sharp-esencial/bienvenido-a-f-sharp
-[lil-thumbnail-url]: ![image](https://user-images.githubusercontent.com/71371373/183633487-cb895d5c-5ca4-4623-9e79-b5725a1b0322.png)
-
-
-[1]: # (End of ES-Instruction ###############################################################################################)
+[lil-thumbnail-url]: https://cdn.lynda.com/course/2372047/2372047-1660028756425-16x9.jpg
